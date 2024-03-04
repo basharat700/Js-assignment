@@ -1,0 +1,64 @@
+<script>
+// Chapter 02 assigments
+// Task one 
+    // let username;
+    // let myName = "Basharat ullah";
+
+// Task Two 
+    // let message;
+    // message = "Hello world";
+    // alert(message); 
+
+// Task Three
+    // let studentName;
+    // let studentAge;
+    // let studentClass;
+
+    // studentName = "basharat ullah";
+    // studentAge = 25;
+    // studentClass = "WMA Batch 11";
+
+    // alert("student Bio\nStudent Name: "+studentName );
+    // alert("Student Age: "+studentAge);
+    // alert("student class: "+studentClass);
+
+// Task Four
+    // alert("Pizza \nPizz \nPiz \nPi \nP");
+
+// Task Five
+//     let Email;
+//     Email = "basharatullah700@gmail.com";
+//     alert("My Email address is "+Email);
+
+// Task Six
+    // let Book;
+    // Book = "A smarter way to learn JavaScript.";
+    // alert(Book);
+
+//Task Seven
+    // let displayMessage;
+    // displayMessage = "Display Html H1 tage";
+    // document.write("<h1>"+displayMessage+"</h1>");\
+
+// Task Eight
+    // let displaySpecialCharcter;
+    // displaySpecialCharcter ="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+    // alert(displaySpecialCharcter);
+</script>
+
+<script>
+// Chapter 03 assigments  
+// Task one
+    // let age = 25;
+    // alert("I am "+age+" Year old");
+
+// Taks Two
+    // let userVisits;
+    // userVisits = 15;
+    // alert("You have visited this site "+userVisits+" times");
+
+//Task Three
+    let showNumberInHtml;
+    showNumberInHtml = 50;
+    document.write("<p> Show number using js in html <b>"+showNumberInHtml+"</b></p>");
+</script>
