@@ -1,0 +1,22 @@
+<script>
+ // Get Value From users
+    let firstNumber = parseFloat(prompt("enter Your first number"));
+    let SecondNumber = parseFloat(prompt("enter Your Second number"));
+
+// Cacluate given number
+    let sum = firstNumber + SecondNumber;
+    let sub = firstNumber - SecondNumber;
+    let mul = firstNumber * SecondNumber;
+    let div = firstNumber / SecondNumber;
+    let hol = firstNumber % SecondNumber;
+
+// Print results
+    document.write("<p>Sum Of two given number <b>"+sum+"</b></p>");
+    document.write("<p>subtraction Of two given number <b>"+sub+"</b></p>");
+    document.write("<p>multiplication Of two given number <b>"+mul+"</b></p>");
+    document.write("<p>division Of two given number <b>"+div+"</b></p>");
+    document.write("<p>Reminder Of two given number <b>"+hol+"</b></p>");
+    
+</script>
+
+
