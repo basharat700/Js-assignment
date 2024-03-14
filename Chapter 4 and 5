@@ -1,0 +1,118 @@
+<script>
+    // SUM
+    //Task Number 1
+    // let inputOne = +prompt("enter your first number");
+    // let inputTwo = +prompt("enter your second number");
+
+    // let finalOutput = inputOne + inputTwo;
+
+    // document.write("Sum of "+inputOne+" and "+inputTwo+" is "+finalOutput);
+
+
+    // // subtraction
+    // Task Number 2
+    // let inputOne = +prompt("enter your first number");
+    // let inputTwo = +prompt("enter your second number");
+
+    // let finalOutput = inputOne - inputTwo;
+
+    // document.write("Sub of "+inputOne+" and "+inputTwo+" is "+finalOutput);
+
+
+    //multiplication
+
+    // let inputOne = prompt("Enter Your first number");
+    // let inputTwo = prompt("Enter your second number");
+
+    // let finalOutput = inputOne * inputTwo;
+
+    // document.write("Multiplication of "+inputOne+" and "+inputTwo+" is "+finalOutput);
+
+    // division
+    // let inputOne = prompt("Enter your First number");
+    // let inputTwo = prompt("Enter your Second Number");
+
+    // let finalOutput = inputOne / inputTwo;
+    // document.write("Division of " +inputOne+" and "+inputTwo+" is "+finalOutput);
+    
+    // Modulus
+    // let inputOne = prompt("Enter your first number");
+    // let inputTwo = prompt("Enter your second number");
+
+    // let finalOutput = inputOne % inputTwo;
+    // document.write("Modulus of "+inputOne+" and "+inputTwo+" is "+finalOutput);
+
+    // Task number 3
+
+    // let NewVariable ;
+    // document.write("Value after variable declaration is: "+NewVariable+"<br>");
+    
+    // NewVariable = 5;
+    // document.write("Initial value:"+ NewVariable+"<br>");
+
+    // ++NewVariable;
+    // document.write("Value after increment is: "+NewVariable);
+
+    // NewVariable = NewVariable + 7;
+    // document.write("<br>Value after addition is: " + NewVariable);
+
+    // --NewVariable;
+    // document.write("<br>Value after decrement is: "+ NewVariable);
+
+    // let reminder = NewVariable % 3;
+    // document.write("<br> The remainder is: " + reminder);
+
+    // Task Number 4
+
+    // let movieTicketPrice = 600;
+    // let numberOfTickets = 5;
+    // let TotalPriceOfTicektes = movieTicketPrice * numberOfTickets;
+
+    // document.write("Total Cost to buy "+numberOfTickets+" tickets to a movie is "+TotalPriceOfTicektes+"PKR <br>");
+
+
+    //Task number 5
+    // document.write("<br>Table of 4 <br>");
+    // let NumberForTable = 4;
+
+    // let total = NumberForTable * 1;
+    // document.write(NumberForTable + " X 1 = " + total + "<br>");
+    // total = NumberForTable * 2;
+    // document.write(NumberForTable + " X 2 = " + total + "<br>");
+    // total = NumberForTable * 3;
+    // document.write(NumberForTable + " X 3 = " + total + "<br>");
+    // total = NumberForTable * 4;
+    // document.write(NumberForTable + " X 4 = " + total + "<br>");
+    // total = NumberForTable * 5;
+    // document.write(NumberForTable + " X 5 = " + total + "<br>");
+    // total = NumberForTable * 6;
+    // document.write(NumberForTable + " X 6 = " + total + "<br>");
+    // total = NumberForTable * 7;
+    // document.write(NumberForTable + " X 7 = " + total + "<br>");
+    // total = NumberForTable * 8;
+    // document.write(NumberForTable + " X 8 = " + total + "<br>");
+    // total = NumberForTable * 9;
+    // document.write(NumberForTable + " X 9 = " + total + "<br>");
+    // total = NumberForTable * 10;
+    // document.write(NumberForTable + " X 10 = " + total + "<br>");
+
+
+    // Task Number 6
+
+
+    // let celsiusTemperature = 25;
+    // let fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+    // document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+
+    // let fahrenheitTemperature2 = 70;
+    // let celsiusTemperature2 = (fahrenheitTemperature2 - 32) * 5/9;
+    // document.write(fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C");
+
+    //task number 7
+
+
+    
+
+
+
+</script>
