@@ -1,0 +1,86 @@
+<script>
+    // let a = 10;
+
+    // document.write(`Result:<br>The Value of a is: ${a}<br>..................................`);
+    
+    // document.write(`<br> <br>The value of ++a is: ${++a}`);
+    // document.write(`<br>Now the value of a is: ${a} <br>`);
+
+    // document.write(`<br>The value of a++ is: ${a++}`);
+    // document.write(`<br>Now the value of a is ${a} <br>`);
+
+    // document.write(`<br> The Value of --a is: ${--a}`);
+    // document.write(`<br>Now the value of a is ${a}<br>`);
+
+    // document.write(`<br> The Value of a-- is: ${a--}`);
+    // document.write(`<br>Now the value of a is ${a}`);
+
+    // let a = 2
+    // let b = 1
+    // document.write(`a is ${a}<br>b is ${b}<br>`);
+    // let result = --a - --b + ++b +b--
+    // document.write(result);
+    // document.write(`<br> Expaln the output at each stage:<br> ${--a};<br> ${--a - --b + ++b}; <br> ${--a - --b + ++b + b--};`);
+
+    // let userName = prompt("Enter Your Name");
+    // document.write(`Welcome to our website ${userName}`);
+
+    // let Table = prompt("Enter any number to print table", 5);
+
+    // for (let count = 1; count <= 10; count++){
+    //     document.write(`${Table} X ${count} = ${count * Table} <br>`);
+    // }
+
+    let FirstSubject = prompt("Enter your First Subject Name");
+    let SecondSubject = prompt("Enter your Second Subject Name");
+    let ThirdSubject = prompt("Enter your Third Subject Name");
+
+    let FirstSubjectObtainedMarks = +prompt(`Enter ${FirstSubject} Obtaine Marks.`);
+    let SecondSubjectObtainedMarks = +prompt(`Enter ${SecondSubject} Obtaine Marks.`);
+    let ThirdSubjectObtainedMarks = +prompt(`Enter ${ThirdSubject} Obtaine Marks.`);
+    
+    let totalMArks = 100;
+    
+    let TotalObtainedMarks = FirstSubjectObtainedMarks+SecondSubjectObtainedMarks+ThirdSubjectObtainedMarks;
+    let TotalPercentage = (TotalObtainedMarks / 300 ) * 100;
+    document.write(`<table>
+        <thead>
+            <tr style="font-weight:600; font-size: 20px;">
+                <td>Subject </td>
+                <td>Total Marks </td>
+                <td>Marks Obtained </td>
+                <td>Percentage </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>${FirstSubject}</td>
+                <td>${totalMArks}</td>
+                <td>${FirstSubjectObtainedMarks}</td>
+                <td>${(FirstSubjectObtainedMarks / totalMArks) * 100}%</td>
+            </tr>
+            <tr>
+                <td>${SecondSubject}</td>
+                <td>${totalMArks}</td>
+                <td>${SecondSubjectObtainedMarks}</td>
+                <td>${(SecondSubjectObtainedMarks / totalMArks) * 100}%</td>
+            </tr>
+            <tr>
+                <td>${ThirdSubject}</td>
+                <td>${totalMArks}</td>
+                <td>${ThirdSubjectObtainedMarks}</td>
+                <td>${(ThirdSubjectObtainedMarks / totalMArks) * 100}%</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>${TotalObtainedMarks}</td>
+                <td>300</td>
+                <td>${TotalPercentage}%</td>
+
+            </tr>
+        </tbody>
+        
+    </table>`)  ;
+</script>
