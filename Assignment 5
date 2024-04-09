@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>USER INPUT & CONDITIONAL STATEMENT</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      </head>
+<body>
+<Script>
+    // Excersies no.1
+    // let CityName = prompt("Enter your City Name ");
+    // if (CityName === "Karachi"){
+    //     Swal.fire("Your City is " + CityName, "Welcome to the city of lights", "success");
+    // } else {
+    //     Swal.fire("Your City is " + CityName, "Welcome", "success");
+    // }
+
+    // Excersies No.2
+    // let Gender = prompt("Enter your Gender");
+    // if(Gender == "Male"){
+    //     Swal.fire("Your Geder "+Gender,"Good Morning Sir.", "success");
+    // }
+    // else if (Gender == "Female"){
+    //     Swal.fire("Your Geder "+Gender,"Good Morning Madam.", "success");
+    // }
+    // else {
+    //     Swal.fire("Not Specify "+Gender,"Plz enter correct gender name or spelling", "wrong");
+
+    // }
+
+    // Excersie No.3
+    //    let color = prompt("Enter any color");
+    //    if (color == "Green"){
+    //     alert("Move now");
+    //    }else if (color == "red"){
+    //     alert("Must Stop");
+    //    }else if(color == "yellow"){
+    //     alert("Ready to stop or move")
+    //    }else {
+    //     alert("enter valid color only Green red and yellow");
+    //    }
+</Script></body>
