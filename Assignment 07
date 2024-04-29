@@ -1,0 +1,40 @@
+<script>
+    // question no1
+    let studentName = [];
+    
+    // question no2
+    let student_Name = {
+        SName : []
+    }
+
+    // question 3
+    let Student_Name = [];
+    Student_Name = ["Basharat ullah ", " Salman ibrahim ", " Muhammad Aslam"];
+    //alert(Student_Name[2]);
+    document.write(Student_Name);
+
+    //question 4
+    let number =[];
+    number = [11,0,22,33,44,55,0];
+    document.write(`<br> ${number} <br>`);
+    document.write(`<br> ${number[5]} <br>`);
+
+    //question 5
+    let boolArr = [];
+    boolArr = [true, false, true];
+    document.write(`<br> ${boolArr} <br>`);
+    document.write(`${boolArr[1]}`);
+
+    //question 6
+    let multipleArra = [];
+    multipleArra = [2334,"BAsahrat", true, "Male", 26];
+    document.write(`<br> ${multipleArra}`)
+
+    //question 7
+    let qualifications = [];
+    qualifications = ["BSCS","BA","B.Com","O level","A level"];
+    document.write("   <br> <br><br> Qualifications  <br>");
+    for(i = 0; i < qualifications.length; i++){
+            document.write(`${qualifications[i]} <br>`);
+    }
+</script>
